@@ -1,25 +1,37 @@
 # SIM-Information-gather-tool
 
-install this tool in your kali linux \ ubontu
+install this tool in your kali linux
 
 Step 1: Install python3-venv (if not already installed)
+
 bash
 sudo apt update
+
 sudo apt install python3-venv
 
+
 Step 2: Create the virtual environment
+
 bash
+
 cd ~/Desktop/telecom_project
+
 python3 -m venv venv
+
 Step 3: Activate the virtual environment
 
 bash
+
 source venv/bin/activate
+
 Step 4: Install the packages
 
 bash
+
 pip install phonenumbers rich requests
+
 python telecom_tracker.py
+
 
 📋 API KEY SETUP GUIDE:
 Google Maps API Key:
